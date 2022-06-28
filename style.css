@@ -832,7 +832,12 @@ footer .right .head__section .fomular button{
     }
     .two__two .container .boxs__services{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);        
+        grid-template-columns: repeat(2, 200px);        
+    }
+    .two__two .container .boxs__services .box{
+        background-color: red;
+        height: 7vh;
+        width: 180px;
     }
     .two__two .container .boxs__services .box:nth-child(1){
         margin-left: 30px;
@@ -897,7 +902,7 @@ footer .right .head__section .fomular button{
         width: auto;
     }
     .three__three .container .galerie__cards .card__item .item img{
-        width: 620px;
+        width: 380px;
         margin-left: 4.5%;
     }
     .three__three .container .galerie__cards .card__item .detail__item{
@@ -973,14 +978,13 @@ footer .right .head__section .fomular button{
     }
     .footer .right .head__section .fomular form{
         display: grid;
-        grid-template-columns: repeat(2, 300px);
+        grid-template-columns: repeat(2, 160px);
         margin-top: 20px;
     }
     .footer .right .head__section .fomular form button,
     .footer .right .head__section .fomular form input{
-        height: 8vh;
-        width: 280px;
-        margin-left: 2%;
+        height: 6vh;
+        width: 170px;
     }
     
 }
