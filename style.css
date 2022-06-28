@@ -788,7 +788,7 @@ footer .right .head__section .fomular button{
         margin-left: 5% ;
     }
     .one__one .container .cards__items .item:nth-child(3) img{
-        width: 380px;
+        width: 340px;
     }
     .one__one .container .cards__items .item:nth-child(3) .little__info{
         bottom: 4px;
@@ -856,7 +856,7 @@ footer .right .head__section .fomular button{
     .two__two .container .restaurant .left div img {
         position: absolute;
         bottom: 90px;
-        width: 380px;
+        width: 360px;
         left: 4.5%;
     }
     .two__two .container .restaurant .right .content__list {
@@ -900,9 +900,10 @@ footer .right .head__section .fomular button{
     }
     .three__three .container .galerie__cards .card__item .item{
         width: auto;
+        
     }
     .three__three .container .galerie__cards .card__item .item img{
-        width: 380px;
+        width: 350px;
         margin-left: 4.5%;
     }
     .three__three .container .galerie__cards .card__item .detail__item{
@@ -978,7 +979,7 @@ footer .right .head__section .fomular button{
     }
     .footer .right .head__section .fomular form{
         display: grid;
-        grid-template-columns: repeat(2, 160px);
+        grid-template-columns: repeat(2, 120px);
         margin-top: 20px;
     }
     .footer .right .head__section .fomular form button,
