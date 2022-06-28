@@ -695,6 +695,298 @@ footer .right .head__section .fomular button{
 /* responsive dessign */
 
 
+@media screen and (min-width: 251px) and (max-width: 450px) {
+    
+    /* reset */
+    .header .navbar .nav__list,
+    .gradient {
+        display: none;
+    }
+    
+    .one__one,.two__two,
+    .three__three,
+    .four__four,
+    .footer {
+        padding: 0;
+    }
+    /* end reset */
+
+
+
+    
+    .header .navbar{
+        margin-bottom: 10px;
+    }
+    .header .navbar .logo{
+        margin-left: -20px;
+    }
+    .main__part .right__p .form-group .content .banner__hero{
+        height: 400px;
+    }
+    .main__part .title__banner__info,
+    .main__part .button,
+    .main__part .left__p{
+        display: none;
+    }
+
+
+    .one__one {
+        height: 140vh;
+    }
+    .one__one .container .cards__items {
+        flex-direction: column;
+    }
+    .one__one .container .cards__items .item:nth-child(1) {
+        order: 1;
+    }
+    .one__one .container .cards__items .head__title {
+        width: 92%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .one__one .container .cards__items .head__title .first__content .title {
+        font-size: 33px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .one__one .container .cards__items .head__title .first__content .detail {
+        text-align: center;
+        font-size: 14px;
+        line-height: 22px;
+        width: 100%;
+    }
+    .one__one .container .cards__items .head__title .second__content .information{
+        text-align: center;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+   
+    .one__one .head__title .circle{
+        width: 70px;
+        height: 70px;
+    }
+    .one__one .head__title .circle img{
+        width: 35px;
+        height: auto;
+    }
+    .one__one .head__title .button{
+        width: 135px;
+        height: 45px;
+        border: solid 2px;
+        position: relative;
+        margin-top: 200px;
+        margin-right: 35%;
+    }
+    
+
+    .one__one .container .cards__items .item:nth-child(3){
+        margin-top: 125px;
+        margin-bottom: 150px;
+        width: auto;
+        margin-left: 5% ;
+    }
+    .one__one .container .cards__items .item:nth-child(3) img{
+        width: 600px;
+    }
+    .one__one .container .cards__items .item:nth-child(3) .little__info{
+        bottom: 4px;
+        width: 40%;
+        height: 22vh;
+        background-color: rgba(230, 230, 219, 0.801);
+        border-left: solid 5px rgb(231 151 57);
+    }
+    .one__one .container .cards__items .item:nth-child(3) .little__info h6{
+        font-size: 25px;
+        margin: 15px 15px 0 30px;
+    }
+    .one__one .container .cards__items .item:nth-child(3) .little__info span:nth-child(2){
+        margin-top: 20px;
+    }
+    .one__one .container .cards__items .item:nth-child(3) .little__info span:nth-child(3){
+        margin: -25px 15px 0 30px;
+        width: 80%;
+        line-height: 32px;
+    }
+    
+    .one__one .container .cards__items .item:nth-child(4),
+    .one__one .container .cards__items .item:nth-child(1){
+        display: none;
+    }
+
+    .two__two .container .head__section {
+        margin-top: 150px;
+    }
+    
+    .two__two .container .head__section .title{
+        font-size: 33px;
+    }
+    .two__two .container .head__section .detail{
+        width: 80%;
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .two__two .container .head__section .detail{
+        width: 80%;
+    }
+    .two__two .container .boxs__services{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);        
+    }
+    .two__two .container .boxs__services .box:nth-child(1){
+        margin-left: 30px;
+    }
+    .two__two .container .boxs__services .box:nth-child(3){
+        margin-left: 30px;
+    }
+
+    .two__two .container .restaurant{
+         flex-direction: column-reverse;
+         position: relative;
+    }
+    .two__two .container .restaurant .left div {
+        width: auto;
+    }
+    .two__two .container .restaurant .left div img {
+        position: absolute;
+        bottom: 90px;
+        width: 620px;
+        left: 4.5%;
+    }
+    .two__two .container .restaurant .right .content__list {
+        display: none;
+    }
+    .two__two .container .restaurant .right .title {
+        text-align: center;
+        width: 95%;
+        font-size: 33px;
+    }
+    .two__two .container .restaurant .right .detail {
+        text-align: center;
+        width: 94%;
+        font-size: 24px;
+    }
+    
+    .two__two .container .restaurant .right .lists__part .button{
+        margin-left: 35%;
+        margin-top: 520px;
+    }
+
+
+
+    .three__three {
+        margin-top: -140px;
+    }
+    .three__three .container .head__section .title {
+        font-size: 33px;
+    }
+    .three__three .container .head__section .boxs__standard {
+        display: none;
+    }
+    .three__three .container .galerie__cards {
+        flex-direction: column;
+    }
+    .three__three .container .galerie__cards .card__item {
+        width: 100%;
+    }
+    .three__three .container .galerie__cards .card__item:last-child {
+        display: none;
+    }
+    .three__three .container .galerie__cards .card__item .item{
+        width: auto;
+    }
+    .three__three .container .galerie__cards .card__item .item img{
+        width: 620px;
+        margin-left: 4.5%;
+    }
+    .three__three .container .galerie__cards .card__item .detail__item{
+        margin-left: 18%;
+        text-align: center;
+        width: 65%;
+    }
+    .three__three .container .galerie__cards .card__item .button{
+        margin-left: 40%;
+        width: 140px;
+        height: 9vh;
+        margin-top: 30px;
+    }
+
+    .four__four .container .head__section .title {
+        font-size: 33px;
+        text-align: center;
+        padding-top: 70px;
+        margin-bottom: 13px;
+    }
+    .four__four .container .content__galerie .comment__client {
+        width: 100%;
+        text-align: center;
+        margin: 1%;
+    }
+    .four__four .container .content__galerie .comment__client .detail{
+        width: 79%;
+        line-height: 39px;
+        margin-left: 11%;
+    }
+    .four__four .container .content__galerie .comment__client .about__client{
+        flex-direction: column;
+    }
+    .four__four .container .content__galerie .comment__client .about__client .right__avis .stars{
+        margin-top: 40px;
+        margin-bottom: -15px;
+    }
+    .four__four .container .content__galerie .comment__client .about__client .right__avis .stars .star{ 
+        margin-left: 8px;
+    }
+   
+    .four__four .container .content__galerie .pagination{
+        margin-left: 11%;
+    }
+    .four__four .container .content__galerie .pagination .left{
+        height: 7vh;
+        margin-left: 8px;
+        position: relative;
+    }
+    .four__four  .content__galerie  .galerie__clients .cards__items{ 
+       display: none;
+    }
+
+
+    .footer {
+        margin-top: 150px;
+        flex-direction: column-reverse;
+    }
+    .footer .left{
+        margin-top: 90px;
+        width: 100%;
+    }
+    .footer .right .head__section .title{
+        width: 93%;
+        font-size: 33px;
+        text-align: center;
+    }
+    .footer .right .head__section .detail{
+        width: 80%;
+        font-size: 23px;
+        margin-left: 5%;
+        text-align: center;
+    }
+    .footer .right .head__section .fomular form{
+        display: grid;
+        grid-template-columns: repeat(2, 300px);
+        margin-top: 20px;
+    }
+    .footer .right .head__section .fomular form button,
+    .footer .right .head__section .fomular form input{
+        height: 8vh;
+        width: 280px;
+        margin-left: 2%;
+    }
+    
+}
+/* responsive dessign */
+
+
 @media screen and (min-width: 451px) and (max-width: 684px) {
     
     /* reset */
